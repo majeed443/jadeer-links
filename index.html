@@ -89,15 +89,16 @@
     @media (max-width: 480px) {
       body {
         align-items: flex-start;
-        padding: 20px 10px;
+        padding: 10px 5px; /* خفف البادينج لتقريب الفريم */
       }
 
       .card {
-        padding: 25px 18px;
+        padding: 20px 15px; /* قلل الحشو الداخلي */
         border-radius: 16px;
         box-shadow: none;
         width: 100%;
-        margin: 0;
+        margin: 0; /* ألغِ المسافة الخارجية */
+        max-width: none; /* إزالة الحد الأقصى للعرض */
       }
 
       img {
@@ -130,9 +131,7 @@
 
   <div class="card">
     <img src="logo.png" alt="شعار جدير الرقمية">
-    
     <p class="slogan">حيث يلتقي الإبداع والتكنولوجيا</p>
-
     <h1>تواصل مع جدير الرقمية</h1>
     <ul>
       <li><a href="https://www.jdeer.com.sa/" target="_blank" rel="noopener noreferrer">جدير الرقمية </a></li>
